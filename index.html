@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Ana Paula</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="app.js" type="module" defer> </script>
+</head>
+<body>
+    <div class="container">
+        <div class="left">
+            <header> 
+                <img src="photo_cv.png" width="120"/>
+                <h1 id = "nomeTitle">Ana Paula Silva de Vilas Bôas</h1>
+                <h2 id = "job">Telecommunications Engineer</h2>
+                <p id = "linksInfo">
+                    🔗 <a href="https://github.com/anapaulasvb" title="GitHub Repository">GitHub</a>
+                    💼 <a href="https://www.linkedin.com/in/ana-paula-silva-de-vilas-boas" title="Linkedin Profile">Linkedin</a>
+                </p>
+                <p>📞 + 55 35 99948-1429</p>
+                <p>✉ anapaula.svboas@gmail.com </p>
+                <p>📍 Minas Gerais, Brazil </p>
+                <p id="description">+7 years of professional experience as Huawei RF Engineer, working on large projects for major mobile phone companies.</p>
+            </header>
+
+            <section id="sectionSkills">
+                <h3 id = "titleSkills">SKILLS</h3>
+                <ul> 
+                    <li>5G/4G/3G/2G Access Networks Optimization</li>
+                    <li>Process Automation</li>
+                    <li>VBA</li>
+                    <li>Excel</li>
+                    <li>Java</li>
+                </ul>
+            </section>
+        </div>
+        
+        <div class="right">
+            <section id="sectionProjects">
+                <h3 id="titleProfBack">PROFESSIONAL BACKGROUND</h3>
+                <nav>
+                    <ul>
+                        <li><a href="#technicalLeader">RF Technical Leader</a></li>
+                        <li><a href="#rfConsultant">RF Consultant</a></li>
+                        <li><a href="#rfEngineer">RF Engineer</a></li>
+                    </ul>
+                </nav>
+
+                <main>
+                    <section id="technicalLeader" class="projectSection">
+                        <div class="projectContent">
+                            <img src="Manpower.png" width="100" alt="Technical Leader Image"/>
+                            <div class="projectDetails">
+                                <h4>RF Technical Leader (Dec/2022 to date)</h4>
+                                <p>RF leader in the rollout/delivery department, responsible for managing activity demand and organizing flows.</p>
+                                <p>Main activities:</p>
+                                <ul>
+                                    <li>Tool development to automate activities;</li>
+                                    <li>Development of team skills and knowledge;</li>
+                                    <li>RF Troubleshooting for 3G, 4G and 5G networks.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                    
+                    <section id="rfConsultant" class="projectSection">
+                        <div class="projectContent">
+                            <img src="Huawei.png" width="100" alt="RF Consultant Image"/>
+                            <div class="projectDetails">
+                                <h4>RF Consultant (Mar/2022 to Dec/2022)</h4>
+                                <p>Responsible for testing new features to optimize the access network.</p>
+                                <p>Main activities:</p>
+                                <ul>
+                                    <li>3G, 4G and 5G site performance optimization;</li>
+                                    <li>Presentation of new solutions for the customer;</li>
+                                    <li>Monitoring of large events in real time, such as Carnival and Rock In Rio;</li>
+                                    <li>Network audit;</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="rfEngineer" class="projectSection">
+                        <div class="projectContent">
+                            <img src="Inatel.png" width="100" alt="RF Engineer Image"/>
+                            <div class="projectDetails">
+                                <h4>RF Engineer (Jan/2018 to Mar/2022) </h4>
+                                <p>Working on the Rollout team's RF team.</p>
+                                <p>Main activities:</p>
+                                <ul>
+                                    <li>RF Planning;</li>
+                                    <li>KPIs analysis and monitoring;</li>
+                                    <li>Installation photo report analysis;</li>
+                                    <li>Drive test report analysis.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </section>
+                </main>
+            </section>
+
+            <section>
+                <fieldset>
+                    <legend>Contact Form</legend>
+                    <form class="contactForm" id="contactForm" action="" onsubmit="return false" >
+                        <div> 
+                            <label for="name">Name:</label>
+                            <input type="text" name="name" id="name" required autofocus>
+                        </div>
+                        <div> 
+                            <label for="email">Email:</label>
+                            <input type="email" name="email" id="email" >
+                        </div>
+                        <div> 
+                            <label for="message"><p>Message:<p/></label>
+                            <textarea id="textMessage" name="textMessage" rows="6" cols="50" placeholder="Write your message here."></textarea>
+                        </div>
+                        <div>
+                            <button type="submit"> Sent </button>
+                        </div>
+                    </form>
+                </fieldset>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
